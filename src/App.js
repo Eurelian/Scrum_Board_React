@@ -10,21 +10,24 @@ import {PostIt} from './AddPostit'
 class App extends React.Component{
   constructor(props){
     super(props);
-    this.state={
-      newItem: [
-      {itemId: "",
-    textValue: "" }],
-
-   display: false,
-         
+    this.state= {postits: [{id:'0', text: `Add your task here`, position: 'backlog'}],
+    display: false,   
+    idcounter: 0,      
     }
   }
   
   handleDisplay(){
   this.setState({display: !this.state.display})
-   
 }
+
+  handleSave(id){
+    console.log(this.state.postits)//.filter(postit => postit.id === id)[0]
+    //this.setState({PostIts: {id: this.state.idcounter}})
+    //, text: document.getElementById("textInput"), position: document.getElementById("moveTo") 
+  }
+
   render(){
+
   return ( 
   <>  
   <Header/>
@@ -42,11 +45,11 @@ class App extends React.Component{
                         <img src={require('./img/trash.png')} alt="Trash"/>
               </div>
             </div>
-                <BacklogBoard/>
+                <BacklogBoard id={this.state.id} text={this.state.text}/>
                 <ToDoBoard/>
                 <InProgressBoard/>
                 <DoneBoard/>              
-                <PostIt display={this.state.display === true ? "" : "display"} onClick={()=>this.handleDisplay()} />
+                <PostIt display={this.state.display === true ? "" : "display"} onClick={()=>this.handleDisplay(0)} save={this.handleSave} />
   </div>
 
 

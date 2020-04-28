@@ -2,8 +2,6 @@ import React from 'react';
 
 
 export const PostIt = (props) => {
-
-    console.log(props.display);
         return ( 
             <div className={`show ${props.display}`} id="showNew">
               <div className="content">
@@ -17,15 +15,14 @@ export const PostIt = (props) => {
                         <option value="3">Done</option>
                     </select>
                 </div>
-                <img src="src/img/line.png"/>
+                <img src="src/img/line.png" alt="alt"/>
                 <textarea className="content" rows="9" cols="45" id="textInput"
                     placeholder="Put your task in here!"></textarea>
                 <div class="icon">
                     <img className="icon" onclick="newPostIt.moveTo()" src="src/img/mark.png" alt="Move" title="Move"/>
-                    <img className="icon" onclick="newPostIt.save()" src="src/img/check.png" alt="Save" title="Save"/>
+                    <img className="icon" onClick={()=> props.save()} src="src/img/check.png" alt="Save" title="Save"/>
                     <img className="icon" onclick="newPostIt.deleteTodo()" src="src/img/delete.png" alt="Delete" title="Delete"/>
                 </div>
-
             </div>
         </div>
         )
