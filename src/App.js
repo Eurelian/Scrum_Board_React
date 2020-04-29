@@ -51,10 +51,10 @@ class App extends React.Component{
                         <img src={require('./img/trash.png')} alt="Trash"/>
               </div>
             </div>
-                <BacklogBoard text={this.state.itemList.filter(item => item.board ==0)} />
+                <BacklogBoard text={this.state.itemList.filter(item => item.board ==0)} onHandle={()=>this.handleDisplay()}/>
                 <ToDoBoard text={this.state.itemList.filter(item => item.board ==1)} />
                 <InProgressBoard text={this.state.itemList.filter(item => item.board ==2)} />
-                <DoneBoard text={this.state.itemList.filter(item => item.board ==3)} /> 
+                <DoneBoard text={this.state.itemList.filter(item => item.board ===3)} /> 
 
 
 {/* SUBMIT NEW */}
