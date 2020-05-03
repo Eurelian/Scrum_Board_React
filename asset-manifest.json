@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Scrum_Board_React/static/css/main.36959aaa.chunk.css",
+    "main.js": "/Scrum_Board_React/static/js/main.b92b4fa2.chunk.js",
+    "main.js.map": "/Scrum_Board_React/static/js/main.b92b4fa2.chunk.js.map",
+    "runtime-main.js": "/Scrum_Board_React/static/js/runtime-main.e54ee40f.js",
+    "runtime-main.js.map": "/Scrum_Board_React/static/js/runtime-main.e54ee40f.js.map",
+    "static/js/2.669449b1.chunk.js": "/Scrum_Board_React/static/js/2.669449b1.chunk.js",
+    "static/js/2.669449b1.chunk.js.map": "/Scrum_Board_React/static/js/2.669449b1.chunk.js.map",
+    "index.html": "/Scrum_Board_React/index.html",
+    "precache-manifest.c260ee71c34a96a47ef6bb0b4375acd8.js": "/Scrum_Board_React/precache-manifest.c260ee71c34a96a47ef6bb0b4375acd8.js",
+    "service-worker.js": "/Scrum_Board_React/service-worker.js",
+    "static/css/main.36959aaa.chunk.css.map": "/Scrum_Board_React/static/css/main.36959aaa.chunk.css.map",
+    "static/js/2.669449b1.chunk.js.LICENSE.txt": "/Scrum_Board_React/static/js/2.669449b1.chunk.js.LICENSE.txt",
+    "static/media/check.png": "/Scrum_Board_React/static/media/check.2bf1b5cf.png",
+    "static/media/delete.png": "/Scrum_Board_React/static/media/delete.47616aad.png",
+    "static/media/hanginthere.png": "/Scrum_Board_React/static/media/hanginthere.d66ad174.png",
+    "static/media/App.css": "/Scrum_Board_React/static/media/postit2.4858f63e.png",
+    "static/media/trash.png": "/Scrum_Board_React/static/media/trash.acb3249e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e54ee40f.js",
+    "static/js/2.669449b1.chunk.js",
+    "static/css/main.36959aaa.chunk.css",
+    "static/js/main.b92b4fa2.chunk.js"
+  ]
+}
