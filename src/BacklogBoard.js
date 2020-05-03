@@ -1,15 +1,25 @@
-import React from 'react';
+import React from "react";
 
-export const BacklogBoard = (props) => {
-
-return(
-
-<div className="backlog">
-                    <h2>BACKLOG</h2>
-                    <div className="backlog_grid">
-                    {props.text.map(Item =><div className="postIt" onClick={()=> props.onHandle(Item.id)}><p className="postIt_p">{Item.text}</p></div>)}
-                    </div>
-                </div>
-             
-)
-}
+export const BacklogBoard = ({ text, onHandle, handleDelete }) => {
+	return (
+		<div className='backlog'>
+			<h2>BACKLOG</h2>
+			<div className='backlog_grid'>
+				{text.map((item) => (
+					<div className='postIt'>
+						<div onClick={() => onHandle(item.id)}>
+							<p className='edit'>{item.text}</p>
+						</div>
+						<img
+							className='delete'
+							onClick={() => handleDelete(item)}
+							src={require("./img/delete.png")}
+							alt='Delete'
+							title='Delete'
+						/>
+					</div>
+				))}
+			</div>
+		</div>
+	);
+};
