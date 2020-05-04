@@ -12,6 +12,10 @@ p {
 	cursor: pointer;
 }
 
+select {
+	font-family: Permanent Marker;
+}
+
 img {
 	cursor: pointer;
 }
@@ -43,22 +47,6 @@ h2 {
 	transform: scale(1.05);
 }
 
-/* .textEdit {
-	cursor: pointer;
-	padding: 20px 20px 0 20px;
-	text-align: left;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	display: -webkit-box;
-	-webkit-line-clamp: 6; /* number of lines to show */
-/* -webkit-box-orient: vertical;
-	pointer-events: none;
-	margin-block-start: 0px;
-	margin-block-end: 0px;
-	margin-inline-start: 0px;
-	margin-inline-end: 0px;
-} */
-
 .show {
 	position: absolute;
 	left: 0;
@@ -80,6 +68,17 @@ h2 {
 	margin-right: 10px;
 	background-color: rgba(0, 0, 0, 0);
 	border: none;
+}
+
+.show_close_small {
+align-self: flex-end;
+font-size: 18px;
+font-weight: 900;
+margin: 5px 12px 0 0 ;
+background-color: rgba(0, 0, 0, 0);
+border: none;
+opacity: 0.4;
+color: darkred
 }
 
 .display {
@@ -114,18 +113,26 @@ h2 {
 .icon {
 	padding-top: 10px;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: center;
+	margin: 0 15px 10px 0;
+
 }
 
-.icon img {
+.icon p {
 	cursor: pointer;
-	width: 70px;
+	width: 120px;
 	height: auto;
 	transition: all 0.3s ease;
+	font-size: 18pt;
+	font-weight: 900;
+	border-radius: 10px;
+	border: 3px solid black;
+	opacity: 0.4;
 }
 
-.icon img:hover {
-	width: 73px;
+.icon p:hover {
+	opacity: 1;
+	transform: scale(1.03);
 }
 
 .moveTo {
@@ -214,7 +221,14 @@ select {
 
 .edit {
 	transition: all 0.1s ease;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 6; /* number of lines to show */
+	-webkit-box-orient: vertical;
+	margin: 0 20px  ;
 }
+
 .edit:hover {
 	transform: scale(1.03);
 
@@ -255,9 +269,6 @@ select {
 	border: 0;
 	padding: 0;
 	transition: all 0.2s ease;
-}
-
-pre {
 }
 
 .trash {
@@ -382,7 +393,7 @@ pre {
 	}
 
 	.postIt p {
-		padding: 0 30% 0 10%;
+		padding: 0 10% 0 10%;
 	}
 
 	.wrapper {
@@ -516,7 +527,7 @@ pre {
 	border: none;
 }
 
-.delete {
+/* .delete {
 	opacity: 0.2;
 	position: relative;
 	display: flex;
@@ -524,9 +535,9 @@ pre {
 	width: 30px;
 	height: auto;
 	transition: all 0.2s ease;
-}
+} */
 
-.delete:hover {
+.show_close_small:hover {
 	opacity: 1;
 	transform: scale(1.1);
 }

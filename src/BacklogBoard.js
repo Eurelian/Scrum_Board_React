@@ -7,16 +7,10 @@ export const BacklogBoard = ({ text, onHandle, handleDelete }) => {
 			<div className='backlog_grid'>
 				{text.map((item) => (
 					<div className='postIt'>
+						<button className='show_close_small' onClick={() => handleDelete(item)} >X</button>
 						<div onClick={() => onHandle(item.id)}>
 							<p className='edit'>{item.text}</p>
 						</div>
-						<img
-							className='delete'
-							onClick={() => handleDelete(item)}
-							src={require("./img/delete.png")}
-							alt='Delete'
-							title='Delete'
-						/>
 					</div>
 				))}
 			</div>
