@@ -5,7 +5,6 @@ import { BacklogBoard } from "./BacklogBoard";
 import { ToDoBoard } from "./TodoBoard";
 import { InProgressBoard } from "./InProgressBoard";
 import { DoneBoard } from "./DoneBoard";
-// import {PostIt} from './AddPostit'
 
 class App extends React.Component {
 	constructor(props) {
@@ -82,7 +81,6 @@ class App extends React.Component {
 		}
 	};
 
-	// we have to find a way to replace one single object in the array!
 
 	handleDelete = (item) => {
 		const itemList = [...this.state.itemList];
@@ -177,18 +175,12 @@ class App extends React.Component {
 										className='submitbutton'
 										type='submit'
 									>
-										<img
-											className='icon'
-											src={require("./img/check.png")}
-											alt='Save'
-										/>
+                  <p>Post It</p>
 									</button>
 								</div>
 							</form>
 						</div>
 					</div>
-
-					{/* <PostIt display={this.state.display === true ? "" : "display"} onClick={()=>this.handleDisplay()} buttonTest={()=>this.textButton()} /> */}
 				</div>
 			</>
 		);
