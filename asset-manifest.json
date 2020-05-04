@@ -1,27 +1,25 @@
 {
   "files": {
-    "main.css": "/scrum-board-react/static/css/main.23ef98db.chunk.css",
-    "main.js": "/scrum-board-react/static/js/main.1b99390f.chunk.js",
-    "main.js.map": "/scrum-board-react/static/js/main.1b99390f.chunk.js.map",
+    "main.css": "/scrum-board-react/static/css/main.b6e5724e.chunk.css",
+    "main.js": "/scrum-board-react/static/js/main.e0ab84e5.chunk.js",
+    "main.js.map": "/scrum-board-react/static/js/main.e0ab84e5.chunk.js.map",
     "runtime-main.js": "/scrum-board-react/static/js/runtime-main.0677de00.js",
     "runtime-main.js.map": "/scrum-board-react/static/js/runtime-main.0677de00.js.map",
-    "static/js/2.669449b1.chunk.js": "/scrum-board-react/static/js/2.669449b1.chunk.js",
-    "static/js/2.669449b1.chunk.js.map": "/scrum-board-react/static/js/2.669449b1.chunk.js.map",
+    "static/js/2.14fb08cf.chunk.js": "/scrum-board-react/static/js/2.14fb08cf.chunk.js",
+    "static/js/2.14fb08cf.chunk.js.map": "/scrum-board-react/static/js/2.14fb08cf.chunk.js.map",
     "index.html": "/scrum-board-react/index.html",
-    "precache-manifest.b78ca3ec835569cf6a3091c6046201ff.js": "/scrum-board-react/precache-manifest.b78ca3ec835569cf6a3091c6046201ff.js",
+    "precache-manifest.ad478e13acb88f2dd2a0886b118dd69c.js": "/scrum-board-react/precache-manifest.ad478e13acb88f2dd2a0886b118dd69c.js",
     "service-worker.js": "/scrum-board-react/service-worker.js",
-    "static/css/main.23ef98db.chunk.css.map": "/scrum-board-react/static/css/main.23ef98db.chunk.css.map",
-    "static/js/2.669449b1.chunk.js.LICENSE.txt": "/scrum-board-react/static/js/2.669449b1.chunk.js.LICENSE.txt",
-    "static/media/check.png": "/scrum-board-react/static/media/check.2bf1b5cf.png",
-    "static/media/delete.png": "/scrum-board-react/static/media/delete.47616aad.png",
+    "static/css/main.b6e5724e.chunk.css.map": "/scrum-board-react/static/css/main.b6e5724e.chunk.css.map",
+    "static/js/2.14fb08cf.chunk.js.LICENSE.txt": "/scrum-board-react/static/js/2.14fb08cf.chunk.js.LICENSE.txt",
     "static/media/hanginthere.png": "/scrum-board-react/static/media/hanginthere.d66ad174.png",
     "static/media/App.css": "/scrum-board-react/static/media/postit2.4858f63e.png",
     "static/media/trash.png": "/scrum-board-react/static/media/trash.acb3249e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0677de00.js",
-    "static/js/2.669449b1.chunk.js",
-    "static/css/main.23ef98db.chunk.css",
-    "static/js/main.1b99390f.chunk.js"
+    "static/js/2.14fb08cf.chunk.js",
+    "static/css/main.b6e5724e.chunk.css",
+    "static/js/main.e0ab84e5.chunk.js"
   ]
 }

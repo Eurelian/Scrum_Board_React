@@ -1,35 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2477417423c5614d44761295698da008",
+    "revision": "91f207b8c9588f3b928b5493658e8e5b",
     "url": "/scrum-board-react/index.html"
   },
   {
-    "revision": "f9ed684f361b8b5a8dab",
-    "url": "/scrum-board-react/static/css/main.23ef98db.chunk.css"
+    "revision": "ca9e95a48c1c8eecd0a2",
+    "url": "/scrum-board-react/static/css/main.b6e5724e.chunk.css"
   },
   {
-    "revision": "fa9b8cc9045920ae1242",
-    "url": "/scrum-board-react/static/js/2.669449b1.chunk.js"
+    "revision": "e343353747ee46e2af5b",
+    "url": "/scrum-board-react/static/js/2.14fb08cf.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/scrum-board-react/static/js/2.669449b1.chunk.js.LICENSE.txt"
+    "url": "/scrum-board-react/static/js/2.14fb08cf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f9ed684f361b8b5a8dab",
-    "url": "/scrum-board-react/static/js/main.1b99390f.chunk.js"
+    "revision": "ca9e95a48c1c8eecd0a2",
+    "url": "/scrum-board-react/static/js/main.e0ab84e5.chunk.js"
   },
   {
     "revision": "1431d94d52d95070137e",
     "url": "/scrum-board-react/static/js/runtime-main.0677de00.js"
-  },
-  {
-    "revision": "2bf1b5cf976d11f911fa95c23a18529c",
-    "url": "/scrum-board-react/static/media/check.2bf1b5cf.png"
-  },
-  {
-    "revision": "47616aadc8a702d339de449be7e054f8",
-    "url": "/scrum-board-react/static/media/delete.47616aad.png"
   },
   {
     "revision": "d66ad174b01f3d8099fb69593a2aafbf",
